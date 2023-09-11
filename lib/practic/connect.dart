@@ -32,4 +32,28 @@ class Test {
   void setUpUser() {
     print('Test: setUp User');
   }
+
+  void logOut() {
+    print('Test: User is log out');
+  }
+
+  void remove() {
+    print('Test:remove');
+  }
+
+  void add() {
+    print('Test:add');
+  }
+
+  void clear() {
+    print('Test:clear');
+  }
+
+  void plus() {
+    print('Test:plus');
+  }
+
+  void minus() {
+    print('Test:minus');
+  }
 }
