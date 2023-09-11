@@ -1,49 +1,41 @@
 import 'package:tutorial_for_vladimir/practic/connect.dart';
 
 void main(List<String> arguments) {
-  someFunction();
+  Production obj = Production();
+  someFunction(obj);
 }
 
-void someFunction() {
-  Production obj = Production();
+void someFunction(Production obj) {
   obj.setUpUser();
-  someSomeFunction();
+  someSomeFunction(obj);
 }
 
-void someSomeFunction() {
-  Production obj = Production();
+void someSomeFunction(Production obj) {
   obj.logOut();
-  someSomeSomeFunction();
+  someSomeSomeFunction(obj);
 }
 
-void someSomeSomeFunction() {
-  Production obj = Production();
+void someSomeSomeFunction(Production obj) {
   obj.remove();
-  someSomeSomeSomeSomeFunction();
+  someSomeSomeSomeSomeFunction(obj);
 }
 
-void someSomeSomeSomeSomeFunction() {
-  Production obj = Production();
-  someSomeSomeSomeSomeSomeFunction();
+void someSomeSomeSomeSomeFunction(Production obj) {
+  someSomeSomeSomeSomeSomeFunction(obj);
   obj.add();
 }
 
-void someSomeSomeSomeSomeSomeFunction() {
-  Production obj = Production();
-
+void someSomeSomeSomeSomeSomeFunction(Production obj) {
   obj.clear();
-  someSomSomeSomeSomeSomeeFunction();
+  someSomSomeSomeSomeSomeeFunction(obj);
 }
 
-void someSomSomeSomeSomeSomeeFunction() {
-  Production obj = Production();
-
+void someSomSomeSomeSomeSomeeFunction(Production obj) {
   obj.plus();
-  someSomeSomeSomeSomeSomeSomeSomeSomeFunction();
+  someSomeSomeSomeSomeSomeSomeSomeSomeFunction(obj);
 }
 
-void someSomeSomeSomeSomeSomeSomeSomeSomeFunction() {
-  Production obj = Production();
+void someSomeSomeSomeSomeSomeSomeSomeSomeFunction(Production obj) {
   obj.minus();
   print('DONE!!!');
 }
