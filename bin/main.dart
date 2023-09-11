@@ -6,7 +6,6 @@ void main(List<String> arguments) {
 
 void someFunction() {
   Production obj = Production();
-
   obj.setUpUser();
   someSomeFunction();
 }
