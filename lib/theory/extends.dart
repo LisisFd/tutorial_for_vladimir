@@ -14,24 +14,29 @@ class C extends A {
   }
 }
 
-void work(Animal animal) {
+void work(IAnimal animal) {
   animal.say();
 }
 
-abstract class Animal {
+abstract class IAnimal {
   void say();
 }
 
-class Cow extends Animal {
+class Animal extends IAnimal {
   @override
   void say() {
-    print('moo');
+    _open();
+  }
+
+  void _open() {
+    print('open');
   }
 }
 
 class Dog extends Animal {
   @override
   void say() {
+    super.say();
     print('gaf');
   }
 }

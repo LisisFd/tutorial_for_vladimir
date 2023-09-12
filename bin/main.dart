@@ -1,8 +1,16 @@
 import 'package:tutorial_for_vladimir/practic/connect.dart';
+import 'package:tutorial_for_vladimir/theory/extends.dart';
+
+class Cow extends Animal {
+  @override
+  void say() {
+    print('moo');
+  }
+}
 
 void main(List<String> arguments) {
-  Production obj = Production();
-  someFunction(obj);
+  Animal f = Dog();
+  f.say();
 }
 
 void someFunction(Production obj) {
